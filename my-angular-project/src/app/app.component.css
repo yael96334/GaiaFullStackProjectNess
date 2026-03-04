@@ -1,0 +1,86 @@
+/* app.component.css */
+.app-container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    height: 47px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .operation-selector {
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    width: 100%;
+    height: 43px !important;
+  }
+  
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+    color: #6366F1;
+    
+  }
+  
+  .history {
+    margin-top: 30px;
+    color: #6366F1;
+
+  }
+  
+  .history-item {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .history-item:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group, .operation-selector {
+  flex: 1;
+  margin-right: 10px; 
+}
+
+.rounded-button {
+  margin-left: 10px;
+}

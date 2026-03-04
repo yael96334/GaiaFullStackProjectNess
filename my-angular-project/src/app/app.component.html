@@ -1,0 +1,21 @@
+<div class="app-container">
+  <h2 class="app-title">Performing an action</h2>
+
+  <div class="form-row">
+    <input type="text" [(ngModel)]="fieldA" placeholder="Field A" class="input-field"/>
+    
+    <app-operation-dropdown
+  [operations]="operations"
+  [selected]="selectedOperation">
+</app-operation-dropdown>
+    <input type="text" [(ngModel)]="fieldB" placeholder="Field B" class="input-field"/>
+
+    <p-button [disabled]="!isFormValid()" (click)="calculate()">CALCULATE</p-button>
+  </div>
+
+  <h3 *ngIf="result()">Result: {{ result() }}</h3>
+    <app-history
+    [history]="operationHistory()" 
+    [monthlyCount]="monthlyCount()">
+  </app-history>
+</div>
