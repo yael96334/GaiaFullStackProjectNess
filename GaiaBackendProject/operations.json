@@ -1,0 +1,51 @@
+{
+  "Arithmetic": [
+    {
+      "Code": "Add",
+      "Expression": "a + b",
+      "Type": "Arithmetic",
+      "Symbol": "+"
+    },
+    {
+      "Code": "Multiply",
+      "Expression": "a * b",
+      "Type": "Arithmetic",
+      "Symbol": "*"
+    },
+    {
+      "Code": "Divide",
+      "Expression": "a / b",
+      "Type": "Arithmetic",
+      "Symbol": "/"
+    },
+    
+    {
+      "Code": "Subtract",
+      "Expression": "a - b",
+      "Type": "Arithmetic",
+      "Symbol": "-"
+    }
+  ],
+  "String": [
+    {
+      "Code": "Concat",
+      "Expression": "Concat",
+      "Type": "String",
+      "Symbol": "Concat()"
+    },
+    {
+      "Code": "Trim",
+      "Expression": "Trim",
+      "Type": "String",
+      "Symbol": "Trim()"
+    },
+    {
+      "Code": "ToUpper",
+      "Expression": "ToUpper",
+      "Type": "String",
+      "Symbol": "ToUpper()"
+    }
+
+
+  ]
+}
