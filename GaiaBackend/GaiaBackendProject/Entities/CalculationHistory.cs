@@ -10,15 +10,11 @@ namespace CalculationProject.Models
     {
         [Key]
         public int Id { get; set; }
-
         public string FieldA { get; set; }
         public string FieldB { get; set; }
         public string Symbol { get; set; }
-
-
-        public string OperationCode { get; set; } // קוד הפעולה שבוצעה
-        public string Result { get; set; }        // תוצאת החישוב
-
+        public string OperationCode { get; set; } 
+        public string Result { get; set; }       
         public DateTime CreatedAt { get; set; }
     }
 }

@@ -25,7 +25,6 @@ namespace CalculationProject.Services
         public async Task<CalculationResponse> CalculateAsync(CalculationRequest request)
         {
             object result;
-
             var opDef = _engine.GetOperations().FirstOrDefault(o => o.Code == request.OperationType);
             if (opDef == null)
                 throw new Exception("Operation not found");

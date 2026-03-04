@@ -11,7 +11,6 @@ namespace CalculationProject.Models
             public AppDbContext(DbContextOptions<AppDbContext> options)
                 : base(options)
             { }
-
             public DbSet<CalculationHistory> CalculationHistory { get; set; }
         }
     }
